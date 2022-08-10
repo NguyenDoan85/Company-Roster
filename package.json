@@ -1,0 +1,31 @@
+{
+  "name": "company-roster",
+  "version": "1.0.0",
+  "description": "An application that help user to keep employer's record.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenDoan85/Company-Roster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenDoan85/Company-Roster/issues"
+  },
+  "homepage": "https://github.com/NguyenDoan85/Company-Roster#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "validator": "^13.0.0"
+  }
+}
