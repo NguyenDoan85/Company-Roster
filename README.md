@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-    ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+    <img src="http://img.shields.io/badge/license-MIT-blue.svg"/>
 </p>
 
 ## Table of Contents
