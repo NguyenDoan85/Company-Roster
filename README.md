@@ -70,16 +70,18 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 ## Installation
-
-💾 Clone the repo and use command `npm install` to install all require packages. Edit the .evn.EXAMPLE file to your configurator, then rename it to `.evn`.
+💾 
+- Clone the repo and use command `npm install` to install all require packages. 
+- Edit the .evn.EXAMPLE file to your configurator, then rename it to `.evn`.
 
 ## Usage
-
-💻 Run the following command at the root of your project and answer the prompted questions:  
+💻 
+- Login to your `mysql` to run `source schema.sql` which will create an employees database. Warning this will drop your current employees database if you already have one.
+- Run the following command at the root of your project and answer the prompted questions:  
 `npm start`
+- Then follow the option.
 
 ## License
-
 ✏️ This project is license under MIT
 
 ## Contributing
