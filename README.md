@@ -75,6 +75,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Usage 
 - Login to your `mysql` to run `source schema.sql` which will create an employees database. Warning this will drop your current employees database if you already have one.
+- Then run `source seeds.sql` to create basic database structure.
 - Run the following command at the root of your project and answer the prompted questions:  
 `npm start`
 - Then follow the option.
