@@ -69,17 +69,17 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
 
-## Installation
-💾 
-- Clone the repo and use command `npm install` to install all require packages. 
-- Edit the .evn.EXAMPLE file to your configurator, then rename it to `.evn`.
+## Installation 
+- 💾Clone the repo and use command `npm install` to install all require packages. 
+- 💾Edit the .evn.EXAMPLE file to your configurator, then rename it to `.evn`.
 
-## Usage
-💻 
+## Usage 
 - Login to your `mysql` to run `source schema.sql` which will create an employees database. Warning this will drop your current employees database if you already have one.
 - Run the following command at the root of your project and answer the prompted questions:  
 `npm start`
 - Then follow the option.
+- 💻 Gif showing the functionality of the app.
+![Company Roster](./asset/example.gif)
 
 ## License
 ✏️ This project is license under MIT
